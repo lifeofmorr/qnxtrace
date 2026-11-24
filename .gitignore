@@ -1,0 +1,18 @@
+# Downloaded canary guest artifacts (Alpine netboot, GPL) — not project source
+canary/vmlinuz-virt
+canary/initramfs-alpine-virt
+canary/initramfs-canary.gz
+canary/guest-root/
+__pycache__/
+*.pyc
+
+# Local build/install artifacts — not project source
+qnx-setup-linux.run
+canary/qnx-payload
+imgbuild/output/
+# Stock QSTI template secrets (sample ssh host keys, shadow) — NEVER publish
+imgbuild/local/misc_files/
+imgbuild/local/ssh-ident
+*.log
+!canary/canary-boot.log
+!canary/canary-qnx-boot.log

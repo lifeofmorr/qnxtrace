@@ -1,0 +1,2 @@
+# Canary: run the payload at end of startup, output to console
+/system/bin/qnx-payload
